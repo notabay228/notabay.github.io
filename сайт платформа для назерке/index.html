@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финансовая грамотность для школьников</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 0;
+            height: 400px;
+            background-image: url("C:\Users\notab\OneDrive\Desktop\сайт платформа для назерке\фото"); /* Убедись, что путь соответствует расположению файла */
+    background-size: cover;
+    background-position: center;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 36px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        }
+        .hero {
+            padding: 50px 0;
+            background-color: white;
+        }
+        .hero h1 {
+            font-size: 24px;
+        }
+        .hero p {
+            font-size: 14px;
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border-radius: 10rem;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 1rem;
+            letter-spacing: .1rem;
+            transition: all .3s;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        .button:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0cf;
+            border-radius: 10rem;
+            z-index: -2;
+        }
+        .button:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: #0099cc;
+            transition: all .3s;
+            border-radius: 10rem;
+            z-index: -1;
+        }
+        .button:hover {
+            color: #fff;
+        }
+        .button:hover:before {
+            width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Финансовая грамотность для школьников</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Изучай финансовую грамотность с удовольствием!</h1>
+            <p>Уроки и тесты для школьников от 1 до 4 классов.</p>
+            <a href="class1.html" class="button">1 класс</a>
+            <a href="class2.html" class="button">2 класс</a>
+            <a href="class3.html" class="button">3 класс</a>
+            <a href="class4.html" class="button">4 класс</a>
+        </div>
+    </section>
+
+</body>
+</html>
